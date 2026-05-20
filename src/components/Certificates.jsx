@@ -23,7 +23,7 @@ const Certificates = () => {
                 <div className="absolute inset-y-0 left-0 w-20 md:w-40 bg-gradient-to-r from-white to-transparent z-10"></div>
                 <div className="absolute inset-y-0 right-0 w-20 md:w-40 bg-gradient-to-l from-white to-transparent z-10"></div>
 
-                {/* Grupo 1 de Animación */}
+                {/* original */}
                 <ul className="flex items-center justify-center animate-infinite-scroll flex-none gap-16 px-8">
                     {certifications.map((cert, index) => (
                         <li key={index} className="flex-none">
@@ -36,7 +36,7 @@ const Certificates = () => {
                     ))}
                 </ul>
 
-                {/* Grupo 2 (Duplicado idéntico para el efecto infinito) */}
+                {/* Duplicado igual para el efecto infinito */}
                 <ul className="flex items-center justify-center animate-infinite-scroll flex-none gap-16 px-8" aria-hidden="true">
                     {certifications.map((cert, index) => (
                         <li key={`dup-${index}`} className="flex-none">
@@ -49,6 +49,7 @@ const Certificates = () => {
                     ))}
                 </ul>
 
+                {/* Duplicado igual para el efecto infinito */}
                 <ul className="flex items-center justify-center animate-infinite-scroll flex-none gap-16 px-8" aria-hidden="true">
                     {certifications.map((cert, index) => (
                         <li key={`dup-${index}`} className="flex-none">
@@ -61,6 +62,7 @@ const Certificates = () => {
                     ))}
                 </ul>
 
+                {/* Duplicado igual para el efecto infinito */}
                 <ul className="flex items-center justify-center animate-infinite-scroll flex-none gap-16 px-8" aria-hidden="true">
                     {certifications.map((cert, index) => (
                         <li key={`dup-${index}`} className="flex-none">
