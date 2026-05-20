@@ -4,6 +4,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    darkMode: 'class',
     extend: {
       animation: {
         'infinite-scroll': 'infinite-scroll 30s linear infinite',
